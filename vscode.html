@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      /* CSS */
-      body {
-        color: white;
-        background: url("https://miro.medium.com/v2/resize:fit:1400/1*y93jZzftu0aJQyc0SjEmTg.gif")
-          center center;
-      }
+        /* CSS */
+        body {
+          color: black;
+          background-color: white;
+        }
 
-      a {
-        /* Change the style of anchor*/
-        color: inherit;
-        text-decoration: none;
-        padding: 16px;
-        background-color: blue;
+        a {
+          /* Change the style of anchor*/
+          color: white;
+          text-decoration: none;
+          padding: 16px;
+          background-color: blue;
+        }
+
+         @media (prefers-color-scheme: dark) {
+        /* Styles for dark mode */
+        body {
+          color: white;
+           background: url("https://miro.medium.com/v2/resize:fit:1400/1*y93jZzftu0aJQyc0SjEmTg.gif")
+            center center;
+        }
       }
     </style>
     <title>VS Code</title>
